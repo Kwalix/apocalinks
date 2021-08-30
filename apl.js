@@ -45,5 +45,5 @@ yargs.command('add', 'page to store, ex: statistic-2020', {
 
     appendFileSync(txtFilePath, link + '\n');
     clipboardy.writeSync(link);
-    console.log(chalk.green(emojis.emojify('Lien sauvegardé et copié ! :chains: :point_down: \n' + link)));
+    console.log(chalk.green(emojis.emojify('Link saved and copied to clipboard ! :chains: :point_down: \n' + link)));
 }).argv;

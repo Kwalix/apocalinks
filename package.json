@@ -1,0 +1,23 @@
+{
+  "name": "apocalinks",
+  "version": "1.0.0",
+  "description": "link creation tool",
+  "main": "apl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tool",
+    "links",
+    "manager"
+  ],
+  "author": "kwalix",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "clipboardy": "^2.3.0",
+    "node-emoji": "^1.11.0",
+    "validator": "^13.6.0",
+    "yargs": "^17.1.1"
+  }
+}
